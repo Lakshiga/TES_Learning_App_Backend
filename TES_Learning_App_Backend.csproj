@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
+    <ProjectReference Include="..\TES_Learning_App_Application\TES_Learning_App_Application.csproj" />
+    <ProjectReference Include="..\TES_Learning_App_Domain\TES_Learning_App_Domain.csproj" />
+    <ProjectReference Include="..\TES_Learning_App_Infrastructure\TES_Learning_App_Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
